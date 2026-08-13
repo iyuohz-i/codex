@@ -94,3 +94,14 @@ CHANGELOG.ignore.md
 # Python bytecode files
 __pycache__/
 *.pyc
+
+# understand-anything intermediate artifacts
+.understand-anything/tmp/
+.understand-anything/intermediate/
+.understand-anything/fingerprints.json
+
+# playwright-mcp screenshots/logs
+.playwright-mcp/
+
+# omo session metadata
+.omo/

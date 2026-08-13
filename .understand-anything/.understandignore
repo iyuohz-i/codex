@@ -1,0 +1,65 @@
+# .understandignore — patterns for files/dirs to exclude from analysis
+# Syntax: same as .gitignore (globs, # comments, ! negation, trailing / for dirs)
+# Lines below are suggestions — uncomment to activate.
+# Use ! prefix to force-include something excluded by defaults.
+#
+# Built-in defaults (always excluded unless negated):
+#   node_modules/, .git/, dist/, build/, obj/, *.lock, *.min.js, etc.
+#
+# --- From .gitignore (uncomment to exclude) ---
+
+# .pnpm-store
+# .pnpm-debug.log
+# !pnpm-lock.yaml
+# bazel-*
+# user.bazelrc
+# storybook-static/
+# codex-cli/README.md
+# result
+# .history/
+# .zed/
+# *.swp
+# *~
+# CLAUDE.md
+# .claude/
+# AGENTS.override.md
+# .parcel-cache/
+# .eslintcache
+# .nyc_output/
+# .jest/
+# *.tsbuildinfo
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+# .env*
+# !.env.example
+# *.tgz
+# .vercel/
+# .netlify/
+# /.tmp/sdk-ci/
+# /upstream-rusty-v8/
+# apply_patch/
+# personal/
+# .DS_Store
+# Thumbs.db
+# Icon?
+# .Spotlight-V100/
+# .yarn/
+# package.json-e
+# session.ts-e
+# CHANGELOG.ignore.md
+# .direnv
+# .envrc
+# *.pyc
+
+# --- Detected directories (uncomment to exclude) ---
+
+# docs/
+# scripts/
+# patches/
+
+# --- Test file patterns (uncomment to exclude) ---
+
+# *.test.*
+# *.spec.*
+# *.snap
